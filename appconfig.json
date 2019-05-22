@@ -1,0 +1,31 @@
+{
+    "prefix": "/",
+    "colors": {
+        "red": "#d61717",
+        "green": "#15ff00",
+        "yellow": "#fff600",
+        "orange": "#ff6a00",
+        "darkPurple": "#2f0077",
+        "lightPurple": "#a851ff",
+        "blue": "#0004ff",
+        "pink": "#ff00d4",
+        "teal": "#00d8ff",
+        "blurple": "#406da2"
+    },
+    "opServers": {
+        "quinelladev": "551582261271724032",
+        "ramenshop": "511289361178820618",
+        "angelsofthedark": "570268589207191572"
+    },
+    "opUsers": {
+        "arkane": "208779984276291585",
+        "happykilmore": "214914406042042368",
+        "darkshadow": "370925264705814529",
+        "soulreflex": "401515669713190924",
+        "haildeathtoll": "282662960642654210"
+    },
+    "botIDs": {
+        "clientID": "556257000489615363",
+        "permissionsInteger": "8"
+    }
+}
