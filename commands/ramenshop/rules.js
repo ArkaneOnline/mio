@@ -31,7 +31,7 @@ module.exports = {
         .addField("As always, Welcome to The Ramen Shop!", "We at the staff team hope you enjoy your stay here!")
         .setImage(message.guild.iconURL)
         .setTimestamp()
-        .setFooter(`This bot and these rules were created by ${opUsers.arkane.name}`, opUsers.arkane.displayAvatarURL)
+        .setFooter(`This bot and these rules were created by ${client.users.get(opUsers.arkane).username}`, client.users.get(opUsers.arkane).displayAvatarURL)
 
         message.channel.send(rulesembed);
     }
