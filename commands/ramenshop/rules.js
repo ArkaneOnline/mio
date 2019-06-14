@@ -1,5 +1,5 @@
 const { RichEmbed } = require("discord.js");
-const { colors, opUsers } = require("../../appconfig.json");
+const { colors, opUsers, opServers } = require("../../appconfig.json");
 
 module.exports = {
     config: {
@@ -9,6 +9,7 @@ module.exports = {
         category: "ramenshop"
     },
     run: async (client, message, args) => {
+        if(!message.guild.opServers.ramenshop) return;
         await message.delete();
 
         let rulesembed = new RichEmbed()
