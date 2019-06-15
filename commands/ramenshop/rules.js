@@ -31,7 +31,6 @@ module.exports = {
         .addField("Do not question a staff member", "If you believe a staff member is incorrect with their descision, report it to one of the higher up staff members and they will look in to it", true)
         .addBlankField(true)
         .addField("As always, Welcome to The Ramen Shop!", "We at the staff team hope you enjoy your stay here!")
-        .setImage(message.guild.iconURL)
         .setTimestamp()
         .setFooter(`This bot and these rules were created by ${client.users.get(opUsers.arkane).username}`, client.users.get(opUsers.arkane).displayAvatarURL)
 
