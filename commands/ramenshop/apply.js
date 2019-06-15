@@ -9,7 +9,7 @@ module.exports = {
         category: "ramenshop"
     },
     run: async (client, message, args) => {
-        if(!message.guild.opServers.ramenshop) return;
+        if(!message.guild.id === opServers.ramenhop) return;
         await message.delete();
 
         let application = args.join(" ");
