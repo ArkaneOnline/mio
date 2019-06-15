@@ -23,6 +23,7 @@ module.exports = {
 
         let modappchannel = message.guild.channels.find(`name`, "mod-apps");
         modappchannel.send(appembed);
+        message.reply("Your application has been sent!");
         return;
     }
 }
