@@ -24,6 +24,7 @@ module.exports = {
         .addField("Listen to Staff", "They have the final say with any drama that starts in this server", true)
         .addField("Don't start drama", "All your arguments over stupid things should not be in this server", true)
         .addField("Learn how to take a joke", "If you think a joke is offensive, it's not meant to be, hence the name 'joke', so don't report any of that nonsense to the staff team", true)
+        .addField("No Alt Accounts", "We like to have accurate numbers and alt accounts are not accurate. If you spot an alt account, let a staff member know so we can investigate", true)
         .addBlankField(true)
         .addField("Punishments", "This is what happens if you break any of these rules")
         .addField("Warns, kicks, and bans", "Depending on severity of the situation, you may be warned, kicked, or banned. If you are a repeat offender, we may up the level of severity because of your history", true)
