@@ -9,7 +9,7 @@ module.exports = {
         category: "ramenshop"
     },
     run: async (client, message, args) => {
-        if(message.guild.id != opServers.ramenhop) return;
+        if(message.guild.id != 511289361178820618) return;
         await message.delete();
 
         let rulesembed = new RichEmbed()
